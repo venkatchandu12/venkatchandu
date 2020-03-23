@@ -1,0 +1,12 @@
+try:
+          a=int(input())
+          for i in range(a):
+                    b,c=map(int,input().split())
+                    d=list(map(int,input().split()))
+                    d.sort()
+                    if(c==0):
+                              print(sum(d)/b)
+                    else:
+                              print(sum(d[c:-c])/(b-(2*c)))
+except:
+          pass
