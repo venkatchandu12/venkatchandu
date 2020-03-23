@@ -1,0 +1,16 @@
+try:
+          a=int(input())
+          for i in range(a):
+                    b=int(input())
+                    c=list(map(int,input().split()))
+                    d=list(map(int,input().split()))
+                    z=[]
+                    for j in range(b):
+                              z.append(c[j]*20-d[j]*10)
+                    if(max(z)>0):
+                              print(max(z))
+                    else:
+                              print("0")
+except:
+          pass
+                              
