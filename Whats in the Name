@@ -1,0 +1,17 @@
+try:
+          def f(b):
+                    r=list(b.split(" "))
+                    
+                    if(len(r)==1):
+                              print(r[0].title())
+                    elif(len(r)==2):
+                              print(r[0][0].upper()+". "+r[1].title())
+                    else:
+                              print(r[0][0].upper()+". "+r[1][0].upper()+". "+r[2].title())
+                  
+                    
+          for i in range(int(input())):
+                    b=input()
+                    f(b)  
+except:
+          pass
