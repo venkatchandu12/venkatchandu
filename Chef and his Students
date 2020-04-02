@@ -1,0 +1,17 @@
+try:
+          def f(b):
+                    c=0
+                    for j in range(0,len(b)-1):
+                              if(b[j]=='<' and b[j+1]=='>'):
+                                        c=c+1
+                    print(c)
+                              
+                    
+                    
+                    
+          for i in range(int(input())):
+                    a=input()
+                    b=list(a)
+                    f(b)
+except:
+          pass
