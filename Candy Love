@@ -1,0 +1,14 @@
+try:
+          def f(c):
+                    k=sum(c)
+                    if(k%2!=0):
+                              print("YES")
+                    else:
+                              print("NO")
+          
+          for i in range(int(input())):
+                    b=int(input())
+                    c=list(map(int,input().split()))
+                    f(c)
+except:
+          pass
