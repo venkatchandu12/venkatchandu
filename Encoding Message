@@ -1,0 +1,28 @@
+try:
+          def f(a,b):
+                    if(a%2==0):
+                              c=list(b)
+                              for j in range(0,len(c),2):
+                                        t=c[j]
+                                        c[j]=c[j+1]
+                                        c[j+1]=t
+                              for k in range(len(c)):
+                                        print(chr( 122-ord(c[k])+97),end="")
+                              print()
+                    else:
+                              c=list(b)
+                              r=c.pop()
+                              for j in range(0,len(c),2):
+                                        t=c[j]
+                                        c[j]=c[j+1]
+                                        c[j+1]=t
+                              c.append(r)
+                              for k in range(len(c)):
+                                        print(chr( 122-ord(c[k])+97),end="")
+                              print()
+          for i in range(int(input())):
+                    a=int(input())
+                    b=input()
+                    f(a,b)
+except:
+          pass
