@@ -1,0 +1,17 @@
+try:
+          def f(a):
+                    b=list(a)
+                    for i in range(0,len(b),2):
+                              if(b[i]==b[i+1]):
+                                        print("no")
+                                        break
+                    else:
+                              print("yes")
+
+                                        
+                    
+          for i in range(int(input())):
+                    a=input()
+                    f(a)
+except:
+          pass
