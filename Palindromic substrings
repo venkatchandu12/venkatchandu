@@ -1,0 +1,23 @@
+def f(a,b):
+          c=set(a)
+          d=set(b)
+          if(len(a)==1 and len(b)==1):
+                    if(a==b):
+                              return("Yes")
+                              
+                    else:
+                              return("No")
+                              
+          elif(len(c.intersection(d))>=1):
+                    return("Yes")
+          else:
+                    return("No")
+          
+          
+          
+
+if __name__=="__main__":
+          for i in range(int(input())):
+                    a=input()
+                    b=input()
+                    print(f(a,b))
