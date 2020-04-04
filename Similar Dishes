@@ -1,0 +1,14 @@
+try:
+          def f(a,b):
+                    c=a.intersection(b)
+                    if(len(c)<2):
+                              print("dissimilar")
+                    else:
+                              print("similar")
+                    
+          for i in range(int(input())):
+                    a=set(input().split())
+                    b=set(input().split())
+                    f(a,b)
+except:
+          pass
