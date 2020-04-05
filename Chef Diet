@@ -1,0 +1,19 @@
+try:
+          def f(b,c):
+                    for i in range(len(c)):
+                              if(c[i]>=b):
+                                        if(i<len(c)-1):
+                                                  c[i+1]=c[i+1]+c[i]-b
+                              else:
+                                        print("NO",i+1)
+                                        break
+                    else:
+                              print("YES")
+                                        
+                    
+          for i in range(int(input())):
+                    a,b=map(int,input().split())
+                    c=list(map(int,input().split()))
+                    f(b,c)
+except:
+          pass
