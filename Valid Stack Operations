@@ -1,0 +1,21 @@
+try:
+          def f(b):
+                    z=[]
+                    for j in range(len(b)):
+                              if(b[j]==1):
+                                        z.append(1)
+                              elif(b[j]==0 and len(z)>=1):
+                                        z.pop()
+                              else:
+                                        print("Invalid")
+                                        break
+                    else:
+                              print("Valid")
+                    
+                    
+          for i in range(int(input())):
+                    a=int(input())
+                    b=list(map(int,input().split()))
+                    f(b)
+except:
+          pass
