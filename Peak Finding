@@ -1,0 +1,15 @@
+try:
+          def f(a):
+                    b=0
+                    for i in range(a):
+                              c=int(input())
+                              if(b<c):
+                                        b=c
+                               
+                    print(b)
+                    
+          for i in range(int(input())):
+                    a=int(input())
+                    f(a)
+except:
+          pass
