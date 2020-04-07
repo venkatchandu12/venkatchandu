@@ -1,0 +1,11 @@
+try:
+          def f(a):
+                    print(len(a))
+          
+          for i in range(int(input())):
+                    a=list(input())
+                    a=list(set(a))
+                    
+                    f(a)
+except:
+          pass
