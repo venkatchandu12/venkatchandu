@@ -1,0 +1,14 @@
+try:
+          def f(b):
+                    z=[]
+                    for i in range(0,len(b),2):
+                              z.append(b[i])
+                    print(sum(z))
+                    
+          for i in range(int(input())):
+                    a=int(input())
+                    b=list(map(int,input().split()))
+                    b.sort(reverse=True)
+                    f(b)
+except:
+          pass
